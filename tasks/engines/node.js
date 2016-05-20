@@ -169,8 +169,9 @@ module.exports = function(o, allDone) {
 		var args = [
 			'ttfautohint',
 			'--symbol',
-			'--fallback-script=latn',
-			'--windows-compatibility',
+			'--latin-fallback',
+//			'--fallback-script=latn',
+//			'--windows-compatibility',
 			'--no-info',
 			originalFilepath,
 			hintedFilepath
